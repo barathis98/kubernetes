@@ -1,0 +1,14 @@
+# .gitignore
+
+# Exclude Kubernetes secret YAML files
+*-secrets.yaml
+*-secret.yaml
+*-secrets.yml
+*-secret.yml
+
+# Exclude any file containing the word "secret" or "secrets"
+*secret*
+*secrets*
+
+# Exclude files in a directory named "secrets"
+secrets/
